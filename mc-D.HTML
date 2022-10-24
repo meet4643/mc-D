@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <style>
+        .btnorder {
+            color: black;
+            border-radius: 100%;
+            border: 2px solid deeppink;
+            padding: 10px;
+            margin-bottom: 40px;
+        }
+
+        .btnorder:hover {
+            color: white;
+            background-color: black;
+            border: 2px solid deeppink;
+
+
+        }
+
+
+
+
+
+        .bg-light {
+            border: 2px solid yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-white shadow p-3 mb-5 bg-body rounded">
+
+            <div class="container-fluid bg-light ">
+                <a class="navbar-brand" href="#"><img src="mc logo.jpg" style="border-radius: 70%; height: 70px;"></a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link  navpos" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Download App</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Our Menu
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Burger</a></li>
+                                <li><a class="dropdown-item" href="#">pizza</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">french fries</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ">
+                                Locate</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+    <main>
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-white">
+            <img class="shadow-lg   " src="mcd2.jpg" alt="" style="border-radius: 100px; ">
+            <div class="col-md-5 p-lg-5 mx-auto my-5  ">
+
+                <h1><img src="mc logo.jpg" alt=""></h1>
+                <p class="lead fw-normal"></p>
+                <a class="btn btn-outline-info" href="#" style=" image-rendering: auto;">Coming soon new items</a>
+            </div>
+            <div class="product-device shadow-sm d-none d-md-block"></div>
+            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+        </div>
+        <hr style="color: blue;">
+        <div class="  my-md-3 ps-md-3">
+            <div class="text-bg-white me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden ">
+                <div class="my-3 py-3">
+                    <h2 class="display-5">veggie burger</h2>
+                </div>
+                <button class="btnorder">Order</button>
+                <div>
+                    <img class="shadow-lg" src="veg chese burgar.jpg" alt=""
+                        style="width: 500px; height: 700px; padding-bottom: px; ;">
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class=" container">
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+
+                        <div class="my-3 p-3">
+                            <h2 class="display-5">extra cheese</h2>
+
+                        </div>
+                        <button class="btnorder">Order</button>
+
+                        <div>
+                            <img src="burger 2 type" style="width: 400px; height: 500px;" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-6">
+                    <div class=" text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                        <div class="my-3 py-3">
+                            <h2 class="display-5">smashed burger</h2>
+
+                        </div>
+                        <button class="btnorder">Order</button>
+                        <div><img src="burger 3 type" style="width: 400px; height: 500px;" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        </div>
+
+
+
+
+
+        <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="my-3 py-3">
+                <h2 class="display-5">with 3 combo</h2>
+
+            </div>
+            <div>
+                <img class="p-5" style="width: 900px; height: 300px;" src="burger 4 type" alt="  ">
+            </div>
+        </div>
+
+        </div>
+
+            
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
